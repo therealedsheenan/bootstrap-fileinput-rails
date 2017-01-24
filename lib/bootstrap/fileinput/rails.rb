@@ -1,5 +1,5 @@
 module Bootstrap
-  module Input
+  module Fileinput
     module Rails
       # Your code goes here...
     end

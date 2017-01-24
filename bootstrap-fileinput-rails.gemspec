@@ -1,17 +1,17 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "bootstrap/input/rails/version"
+require "bootstrap/fileinput/rails/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "bootstrap-input-rails"
-  s.version     = Bootstrap::Input::Rails::VERSION
+  s.name        = "bootstrap-fileinput-rails"
+  s.version     = Bootstrap::Fileinput::Rails::VERSION
   s.authors     = ["Sheenan Tenepre"]
   s.email       = ["sheenantenepre@gmail.com"]
   s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Bootstrap::Input::Rails."
-  s.description = "TODO: Description of Bootstrap::Input::Rails."
+  s.summary     = "TODO: Summary of Bootstrap::Fileinput::Rails."
+  s.description = "TODO: Description of Bootstrap::Fileinput::Rails."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
